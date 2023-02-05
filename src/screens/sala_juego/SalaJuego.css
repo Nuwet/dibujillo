@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondoJuego{
+    background-image: url('/src/img/fondo.png');
+    height: 100vh;
+}
+
+.cabeceraJuego{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #683c6d;
+}
+
+.logoJuego{
+    height: 100px;
+    margin: 15px 20px;
+}
+
+.temporizadorJuego{
+    color: #d587de;
+    font-size: 70px;
+    margin: 15px 20px;
+    font-weight: bold;
+}
+
+.cuerpoJuego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.historiaJuego{
+    color:#683c6d;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: end;
+    background-color: #d587de;
+    width: 1200px;
+}
+
+.historiah1{
+    font-size: 50px;
+}
+
+.historiap{
+    font-size: 30px;
+}

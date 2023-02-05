@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+.fondo{
+    background-image: url('/src/img/fondo.png');
+    height: 100vh;
+    padding: 50px;
+
+}
+
+.menu{
+    width: 60%;
+    background-color: #683c6d;
+    margin: 0% 20%;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.imagen{
+    width: 40%;
+    margin: 3% 30%;
+
+}
+
+.registro{
+    color: #d587de;
+    font-size: 15px;
+    display: block;
+    margin: 1% auto;
+    text-decoration: underline;
+    cursor: pointer;
+    width: 20%;
+
+    
+}
+
+.boton-inicio{
+    width: 60%;
+    padding: 3% 0%;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #d587de;
+    color: #683c6d;
+    font-weight: bold;
+}
+.boton:last-child{
+    margin: 5% 20%;
+}
+
+.popup-inicio{
+    width: 50%;
+    left: 25%;
+    top: 25%;
+    background-color: #d587de;
+    border-radius: 30px;
+    position: absolute;
+
+}
+.cerrar-inicio{
+    float: right;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.h2-inicio{
+    text-align: center;
+    margin-top: 10px;
+    color: #683c6d;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.formularioSesion label{
+    display: block;
+    margin: 5px 10%;
+    color: #683c6d;
+}
+
+.formularioSesion input{
+    width: 80%;
+    margin: 5px 10%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.formularioSesion .boton{
+    background-color: #683c6d;
+    color: #d587de;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 10% 10px;
+}
+
+.imagenIcono{
+    width: 20%;
+    margin: 2% 40%;
+}
+
+.formularioInvitado{
+    text-align: center;
+}
+
+.formularioInvitado label{
+    color: #683c6d;
+    font-size: 20px;
+}
+
+.formularioInvitado input{
+    display: block;
+    width: 80%;
+    margin: 10px 10% 0px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.formularioInvitado .boton{
+    background-color: #683c6d;
+    color: #d587de;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+    
+}
+
+.error{
+    color: black;
+    margin-bottom: 10px;
+}

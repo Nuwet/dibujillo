@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+.inicial {
+    background-image: url('/src/img/fondo.png');
+    height: 100vh;
+    padding-top: 7%;
+}
+
+.caja {
+    width: 60%;
+    background-color: rgb(104,60,109);
+    margin: 0% 20%;
+    border-radius: 30px;
+}
+
+.cabecera {
+    display: flex;
+}
+
+.logo {
+    width: 30%;
+    margin: auto;
+}
+
+.feed, .cerrar, .crear, .boton {
+    background-color: rgb(213, 135, 222);
+    cursor: pointer;
+}
+
+.feed {
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 30px;
+    color: #683c6d;
+}
+
+.cerrar {
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 30px;
+    color: #683c6d;
+}
+
+.boton, .crear {
+    width: 60%;
+    padding: 2% 0%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #683c6d;
+}
+
+.crear {
+    margin-top: 5%;
+}
+
+/*PopUp*/
+.popup {
+    width: 30%;
+    background-color: rgb(213, 135, 222);
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.unirse {
+    text-align: center;
+}
+
+.cerrar-popup {
+    width: 7%;
+    height: auto;
+    float: right;
+    cursor: pointer;
+}
+
+.formulario {
+    padding-left: 15%;
+    padding-bottom: 3%;
+}
+
+.input-codigo {
+    display: block;
+    width: 50%;
+    height: 30px;
+}
+
+.enviar-codigo {
+    background-color: rgb(104,60,109);
+    border-radius: 10px;
+    padding: 2%;
+    margin-left: 45%;
+    margin-bottom: 3%;
+}
+
+.error-unirse {
+    margin-left: 5%;
+}
