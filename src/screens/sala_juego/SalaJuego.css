@@ -40,7 +40,7 @@
     margin-top: 20px;
     font-weight: bold;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     padding: 15px;
     align-items: end;
     background-color: #d587de;
@@ -48,7 +48,9 @@
 }
 
 .historiah1{
-    font-size: 50px;
+    font-size: 30px;
+    margin-right: 10px;
+    font-weight: normal;
 }
 
 .historiap{
